@@ -20,6 +20,7 @@ var checkSelected;
 var startTime;
 var previous;
 var totalMiles=0;
+var myFont;
 
 
 
@@ -27,6 +28,8 @@ var totalMiles=0;
 
 function preload() {
     table = loadTable("finalData.csv", "csv");
+    myFont= loadFont("Inconsolata-Regular.otf");
+    
 
 
 }
