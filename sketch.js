@@ -28,7 +28,7 @@ var myFont;
 
 function preload() {
     table = loadTable("finalData.csv", "csv");
-    myFont = loadFont('Inconsolata-Regular.otf');
+    myFont = loadFont('Inconsolata-Regular.ttf');
     
 
 
